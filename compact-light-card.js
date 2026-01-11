@@ -8,7 +8,7 @@
  */
 
 
-console.log("compact-light-card.js v0.7.01 loaded!");
+console.log("compact-light-card.js v0.7.02 loaded!");
 window.left_offset = 66;
 
 class CompactLightCard extends HTMLElement {
@@ -180,6 +180,7 @@ class CompactLightCard extends HTMLElement {
           border-left: 2px solid rgba(255, 255, 255, 0.3);
           background: var(--light-primary-colour, var(--secondary-background-color));
           transition: background 0.3s ease;
+          min-width: 120px;
         }
 
         .right-info.value-bar.with-card-border {
